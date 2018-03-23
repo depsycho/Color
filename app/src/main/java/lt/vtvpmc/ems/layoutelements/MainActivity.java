@@ -29,12 +29,13 @@ public class MainActivity extends AppCompatActivity {
         switch (view.getId()) {
             case R.id.buttonOne:
                 textViewTwo.setBackgroundColor(getResources().getColor(R.color.redColor);
-
+        break;
             case R.id.buttonTwo:
                 textViewTwo.setBackgroundColor(getResources().getColor(R.color.greenColor);
-
+    break;
              case R.id.buttonThree:
                 textViewTwo.setBackgroundColor(getResources().getColor(R.color.blueColor);
+                                               break;
 }
     }
 }
